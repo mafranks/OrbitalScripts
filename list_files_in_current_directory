@@ -1,0 +1,6 @@
+import os
+print('Hello {{ .first_name }} {{ .last_name }}')
+print(f"The files in {os.getcwd()} are: {os.listdir()}")
+
+# Add first_name and last_name parameters.
+# Author: Brandon Macer
